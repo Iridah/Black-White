@@ -1,0 +1,20 @@
+{
+  "name": "desafio4",
+  "version": "1.0.0",
+  "description": "Desafio 4, modulo 6, bootcamp Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Silva Quiñones",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "chalk": "^5.3.0",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7",
+    "uuid": "^9.0.1"
+  }
+}
