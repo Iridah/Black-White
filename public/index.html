@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Procesador de Imágenes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Convierte tus imágenes a blanco y negro</h1>
+
+    <form action="/procesar" method="post" enctype="multipart/form-data">
+        <input type="radio" name="tipoEntrada" value="url" checked> URL
+        <input type="radio" name="tipoEntrada" value="archivo"> Archivo
+        <br>
+        <input type="text" name="urlImagen" placeholder="Ingresa la URL de la imagen">
+        <input type="file" name="imagenArchivo">
+        <button type="submit">Procesar</button>
+    </form>
+</body>
+</html>
+

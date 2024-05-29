@@ -1,0 +1,7 @@
+servidor-imagenes/
+├── index.js          // Servidor principal
+├── public/
+│   ├── index.html    // Formulario HTML
+│   └── style.css     // Estilos CSS
+├── imagenes/         // Carpeta para almacenar las imágenes
+└── package.json      // Dependencias del proyecto
